@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <p>Cabecalho (headline)</p>
+        <a name="reference"></a> Here is the place you see when you press to back
+        <!-- aqui eu embrulhei o texto com uma referencia (<a name) e depois coloquei um link para voltar aqui na linha 29 -->
+
+        <title>Aba da web page</title>
+        <!-- here is what is going to show on the web page tag -->
+    </head>
+    <body>
+        <h1>Titulo do texto</h1> 
+        <h3>Sub-titulo do texto</h3>
+        <p>Here is where my text starts</p>
+        <p style="color: brown;">Here I just changed the color</p>
+        <!-- se selecionar o texto e apertr ctrl+/ o texto nao aparecera na pagina (comentario)-->
+        
+        <p>This is <a href="https://github.com/RodrigoSD90">the link</a> to my github profile </p>
+        <p>You can find me on <a href="https://www.instagram.com/rodrigo_sdiniz/"> Instagram</a>
+        or eve on <a href="https://www.facebook.com/rodrigo.soaresdiniz/"> Facebook</a> </p>
+        <p>You can find my project on <a href="../wk3/index.html"> last project</a> github</p>
+
+        <p>You can <a href="mailto:rodrigo.sdnz@gmail.com"> email me</a> as well </p>
+
+        <p><a href="https://www.facebook.com/rodrigo.soaresdiniz/"><img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" style="width: 20%" alt="facebook logo"</a></p>
+        <a href="https://www.instagram.com/rodrigo_sdiniz/"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-png-transparent.png" style="width: 5%" alt="Instagran Logo"</a>
+
+        <!-- this link leads to the reference I've written on line 5 -->
+        <p>Press <a href="#reference">here</a> to back to the top </p>
+
+        <ol>
+            <li> item 1
+            <li> item 2
+        </ol>
+
+        <ul>
+            <li> item 1
+            <li> item 2
+        </ul>
+
+        <ol type="i">
+            <li style=color:red> item 1
+            <li> item 2
+        </ol>
+
+        <!-- Criating a tex box -->
+        <form method="POST" action="script_url">
+            Enter your email<br>
+             <!-- name= usado para identificar a caixa de texto // value= e o que aparecera dentro da caixa // size= //maxlength= qtde max de caracteres  -->
+             <input type="text" name="name" value="type here" size="25" maxlength="40"> <br>
+
+             <!-- rows= a altura da caixa, ou a qtde de linhas // cols= largura em caracteres -->
+             coments?<br>
+             <textarea name="name" rows="5" cols="25" wrap>text here</textarea> <br>
+
+             <!-- Criar botoes de opcao -- so pode escolher 1 opcao -->
+             Whats is yor gender?<br>
+             <input type="radio" name="name" value="data">Male<br>
+             <input type="radio" name="name" value="data">Female<br>
+             Whar do you want?<br>
+             <input type="radio" name="size" value="brakfast">Brakfast
+             <input type="radio" name="size" value="lunch">Lunch
+             <input type="radio" name="size" value="Dinner">Dinner<br>
+
+             <!-- com checkbox, pode escolher mais de uma opcao -->
+             Which souce?<br>
+             <input type="checkbox" name="name" value="catchup">Catchup
+             <input type="checkbox" name="name" value="Mayo">Mayo<br>
+
+             <!-- Drop-down menu -- Aqui vc cria um menu se selecao -->
+             What's your favourite fruit?<br>
+             <select>
+                <option value="select">select
+                <option value="mangoes">mangoes
+                <option value="papaya">papaya
+                <option value="guava">guava
+                <option value="banana">banana
+                <option value="pineapple">pineapple
+                </select><br>
+
+                <input type="submit" value="Buy Now!"><br>
+                <input type="Reset">
+                
+
+
+
+
+
+        </form>
+
+
+
+
+    </body>
+
+</html>

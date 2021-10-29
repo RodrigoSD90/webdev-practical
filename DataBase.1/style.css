@@ -1,0 +1,23 @@
+.body {
+  font: normal medium/1.4 sans-serif;
+}
+.table {
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid rgb(6, 121, 129);
+  
+    
+}
+.th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid rgb(6, 121, 129);
+}
+.tbody tr:nth-child(odd) {
+  background: #eee;
+}
+.h1 {
+  font-size: 250%;
+  color: rgb(14, 4, 109);
+  text-align:start
+}
